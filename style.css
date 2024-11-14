@@ -1,0 +1,132 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 10px;
+  }
+  
+  header .container{
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+  }
+  
+  header h1 {
+    font-size: 3.0em;
+    font-weight: bold;
+  }
+  
+  /* Estilo da equipe */
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  .team-member {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .team .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 800px; /* Ajuste conforme necessário */
+    margin: 0 auto; /* Centraliza a div no centro da página */
+  }
+  
+  .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h2 {
+    font-size: 2.0em;
+    margin-bottom: 10px;
+  }
+  
+  .team-member p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+
+  body {
+    background-image: url('assets/img/background/img-09.jpg');
+    background-size: cover; /* Faz com que o fundo cubra toda a tela */
+    background-repeat: no-repeat; /* Evita repetição do fundo */
+    background-attachment: fixed; /* Faz o fundo ficar fixo enquanto a página rola */
+    background-position: center; /* Centraliza a imagem */
+  }
+
+  /* Estilo para o botão de navegação */
+.nav-button {
+    background-color: transparent; /* Sem fundo */
+    color: rgba(255, 255, 255, 0.7); /* Texto branco com transparência */
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none; /* Sem borda */
+    cursor: pointer;
+    transition: color 0.3s; /* Animação para mudança de cor ao passar o mouse */
+    
+  }
+  
+  /* Efeito hover para destacar o botão */
+  .nav-button:hover {
+    color: rgba(255, 255, 255, 1); /* Texto branco sólido ao passar o mouse */
+  }
+
+  a{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 15px;
+  }
+  
+
+  

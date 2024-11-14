@@ -27,6 +27,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+
+
 ol, ul, li {
   list-style: none;
 }
@@ -48,6 +50,7 @@ b, strong {
   font-weight: 600;
 }
 
+
 html {
   position: static !important;
   top: 0 !important;
@@ -56,6 +59,10 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+span {
+  font-size: 5px;
 }
 
 /***
@@ -1449,6 +1456,10 @@ p.uppercase, .p.uppercase,
 
 .fix-7-12 {
   max-width: 650px !important;
+}
+
+.fix-7-12 .bao{
+  display: contents;
 }
 
 .fix-8-12 {
